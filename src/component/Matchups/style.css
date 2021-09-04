@@ -1,0 +1,50 @@
+.index-root{
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.match-card-title > .ant-select > .ant-select-selector{
+    border-radius: 0 20px 20px 0 !important;
+    box-shadow: 0 0px 5px 0 #AEAEAE, 0 0px 5px 0 #AEAEAE;
+}
+.match-card-title{
+    display: flex;
+    border: #707070;
+}
+.text-choose{
+    border: 1px solid #DBDBDB;
+    box-shadow: 0 0px 5px 0 #e5e2e2, 0 0px 5px 0 #e5e2e2;
+    min-width: 120px;
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+    min-height: 40px;
+    font-size: 15px;
+}
+.select-first-team{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+
+}
+.first-div{
+    display: flex;
+    flex-direction: row;
+}
+.lockdata-root-div{
+    border-radius: 34px;
+    border: 1px solid #e5e2e2;
+    box-shadow: 0 0px 5px 0 #e5e2e2, 0 0px 5px 0 #e5e2e2;
+}
+.matchup-team-match{
+    text-align: center;
+    overflow-y: scroll;
+    min-height: 68vh;
+    max-height: 68vh;
+}
+
